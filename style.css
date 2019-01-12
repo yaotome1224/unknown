@@ -34,7 +34,7 @@ nav li a div {
 	background-size:cover;
 }
 audio {
-		width:400px;
+		width:500px;
 	}
 #music a div {
 	background:url(images/navi/music.png) no-repeat;
@@ -75,7 +75,7 @@ nav ul {
 	background:#eeeeee;
 	width:700px;
 }
-ol img,audio {
+ol img {
 	float:left;
 }
 h2,h3,img,audio,video,p{
