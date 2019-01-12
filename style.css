@@ -33,6 +33,9 @@ nav li a div {
 	background:url(images/navi/top_hover.png);
 	background-size:cover;
 }
+audio {
+		width:400px;
+	}
 #music a div {
 	background:url(images/navi/music.png) no-repeat;
 	background-size:cover;
@@ -94,29 +97,3 @@ footer p {
 	 width:35%; 
 	height:35%;
 }
-@media screen and (max-width: 767px) {
-	#apple img {
-		width:90%;
-		height:90%;
-	}
-	audio {
-		width:400px;
-	}
-	#music p {
-		clear:both;
-	}
-	#main,#apple {
-		width:800px;
-	}
-	body {
-		font-size:1.5em;
-	}
-	nav li a div {
-		width:270px;
-		height:270px;
-	}
-	nav li {
-		padding:10px 30px;
-	}
-}
-
