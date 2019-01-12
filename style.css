@@ -1,0 +1,121 @@
+﻿@charset"utf-8";
+@import url("reset.css");
+/* CSS Document */
+body {
+	background:url(images/back.jpg);
+}
+h1 {
+	background:url(images/back.jpg);
+}
+#main {
+	width:700px;
+	margin:auto;
+	background:#eeeeee;
+	padding:5px;
+}
+nav li {
+	list-style-type:none;
+	float:left;
+	padding:10px 50px;
+}
+h2 {
+	clear:both;
+}
+nav li a div {
+	width:200px;
+	height:200px;
+}
+#top a div {
+	background:url(images/navi/top.png) no-repeat;
+	background-size:cover;
+}
+#top a:hover div{
+	background:url(images/navi/top_hover.png);
+	background-size:cover;
+}
+#music a div {
+	background:url(images/navi/music.png) no-repeat;
+	background-size:cover;
+}
+#music a:hover div{
+	background:url(images/navi/music_hover.png);
+	background-size:cover;
+}
+#picture a div {
+	background:url(images/navi/picture.png) no-repeat;
+	background-size:cover;
+}
+#picture a:hover div{
+	background:url(images/navi/picture_hover.png);
+	background-size:cover;
+}
+#movie a div {
+	background:url(images/navi/movie.png) no-repeat;
+	background-size:cover;
+}
+#movie a:hover div{
+	background:url(images/navi/movie_hover.png);
+	background-size:cover;
+}
+#picture {
+	clear:both;
+}
+#navi {
+	width:700px;
+	background:#eeeeee;
+	height:480px;
+}
+nav ul {
+	text-align:center;
+}
+#apple {
+	background:#eeeeee;
+	width:700px;
+}
+ol img,audio {
+	float:left;
+}
+h2,h3,img,audio,video,p{
+	padding:3px 10px;
+}
+h3 {
+	clear:both;
+}
+#sitemap {
+	text-align:right;
+}
+footer {
+	background:green;
+}
+footer p {
+	text-align:center;
+}
+#apple img {
+	 width:35%; 
+	height:35%;
+}
+@media screen and (max-width: 480px) {
+	#apple img {
+		width:90%;
+		height:90%;
+	}
+	audio {
+		width:400px;
+	}
+	#music p {
+		clear:both;
+	}
+	#main,#apple {
+		width:800px;
+	}
+	body {
+		font-size:1.5em;
+	}
+	nav li a div {
+		width:270px;
+		height:270px;
+	}
+	nav li {
+		padding:10px 30px;
+	}
+}
